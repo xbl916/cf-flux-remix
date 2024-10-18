@@ -20,8 +20,6 @@ export class ImageGenerationService {
     }
 
     return {
-      prompt,
-      translatedPrompt,
       image: imageBase64
     };
   }
